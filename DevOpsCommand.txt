@@ -1,0 +1,21 @@
+node -v
+npm v
+
+2.install angular
+npm install -g @angular /cli
+
+3.create appname
+np new appname
+
+4.run 
+ng serve --port 2500
+
+5.build on git hib
+ng build --prod --base-href https://github.com/amolbirar/AngularDevops/git
+ng build
+
+6.install cli ,create branch  and update artefact
+npm install -g angular-cli-ghpages 
+
+7.Publish
+ngh -no-silent
